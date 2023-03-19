@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(31, 31, 31);
+    font-family: sans-serif;
+  }
+
+  .n.navbar-nav{
+background-color: black;
+
+
+  }
+
+  h1{
+    font-weight: 100;
+  }
+
+  .carousel1{
+    display:block;
+    width: 100%;
+    height: 600px;
+    background: white;
+    overflow-x: scroll;
+    padding: 70px;
+    
+    white-space: nowrap; 
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  .item {
+      display: inline-block;
+      width: 380px;
+      margin:50px;
+      height: 280px;
+      background: rgba(0, 0, 0, 0.05) no-repeat center center;
+      background-size: cover;
+      position:relative;
+      border-radius: 20px;
+      box-shadow: 0 0 10px #dfdfdf;
+  }
+  .item div{
+    width: 100%;
+    top:10%;
+    position:absolute;
+    text-align:center;
+    font-size: 9em;
+    color: white;
+  }
+  /* letras */
+  .item h1{  
+    
+    color: rgb(2, 0, 0);
+    text-align: end;
+    width: 100%;
+    font-size: 4em;
+  }
+
+  /* ///////////// */
+
+  .fondo{
+
+    text-align: center;
+    margin-top: 60px;
+
+  }  
+
+
+  .iteem h1{
+    top: 50%;
+
+    color: rgb(66, 196, 189);
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+    font-size: 3em;
+
+
+    font-family: 'Tilt Prism', cursive;
+
+  }
+
+  .iteem h4{
+    top: 50%;
+
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 90%;
+    font-size: 1,5em;
+    font-family: 'Tilt Prism', cursive;
+  }
+
+  #map {
+  position: static;
+	height: 500px;
+	width: 100%;
+  margin-top: 90px;
+  margin-block: 40px;
+  
+}
+
+.cuestionario{
+  
+ text-align: center;
+  color:rgb(173, 173, 173);
+  font-family: 'Domine', serif;
+
+}
+
+  
+  
+ 
